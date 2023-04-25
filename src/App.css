@@ -1,0 +1,89 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+
+  background-color: #d4d0d8;
+}
+
+.box{
+  width: 100vw;
+  height: 100vh;
+}
+
+.box nav{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 0 9rem;
+  padding-top:2rem;
+  margin: 0 auto;
+  
+}
+nav button{
+  background-color: #00aa;
+  color: #fff;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.input-data{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  padding: 1rem 9rem;
+  margin: 0 auto;
+}
+.input-data input{
+  height: 2rem;
+  width: 90%;
+  border-radius: 1rem 1rem;
+  padding-left: 10px;
+  font-size: 1.1rem;
+  height: 3rem;
+}
+button{
+height: 3rem;
+}
+.input-data button{
+  width: 9%;
+  border-radius: 1rem 1rem;
+  padding: 0 10px;
+  background-color: #111;
+  color: #fff;
+
+}
+/* .single:hover{
+    content: "hello";
+    transform: scale(0.5);
+} */
+
+.display{
+  display: grid;
+  width: 80%;
+  min-height: 600px;
+  grid-template-columns: repeat(5,1fr);
+  gap: 1rem 1rem;
+  margin: 1rem auto;
+  /* grid-template-rows: 200px; */
+}
+.single{
+  width: 150px;
+  height: 200px;
+  position: relative;
+  cursor: pointer;
+}
+
+
+#bookmark{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 20px;
+  height: 20px;
+  background-color: none;
+  color: red;
+
+}
